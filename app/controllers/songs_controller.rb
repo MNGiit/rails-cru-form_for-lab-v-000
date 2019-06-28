@@ -29,6 +29,7 @@ class SongsController < ApplicationController
   def index
     @songs = Song.all
   end
+  
   private
   
   def song_params
